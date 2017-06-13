@@ -1,0 +1,7 @@
+MX6ULEVK BOARD
+M:	Alexander Chubuchnyy <achubuchnyy@charge.auto>
+S:	Maintained
+F:	board/charge/mx6ul_charge
+F:	include/configs/mx6ul_charge.h
+F:	configs/mx6ul_charge_mmc_defconfig
+F:	configs/mx6ul_charge_nand_defconfig

@@ -17,8 +17,8 @@
  * 
  * SPDX-License-Identifier:	GPL-2.0+
  */
-#ifndef __MX6UL_VAR_DART_H
-#define __MX6UL_VAR_DART_H
+#ifndef __MX6UL_CHARGE_H
+#define __MX6UL_CHARGE_H
 
 
 #include <asm/arch/imx-regs.h>
@@ -36,10 +36,10 @@
 
 #ifdef CONFIG_SYS_BOOT_NAND
 #undef CONFIG_SYS_PROMPT
-#define CONFIG_SYS_PROMPT		"MX6UL_VAR_DART(nand)==> "
+#define CONFIG_SYS_PROMPT		"MX6UL_CHARGE(nand)==> "
 #else
 #undef CONFIG_SYS_PROMPT
-#define CONFIG_SYS_PROMPT		"MX6UL_VAR_DART(mmc)==> "
+#define CONFIG_SYS_PROMPT		"MX6UL_CHARGE(mmc)==> "
 #endif
 
 #define CONFIG_ENV_VARS_UBOOT_RUNTIME_CONFIG
@@ -370,7 +370,7 @@
 
 #define CONFIG_G_DNL_VENDOR_NUM         0x0525
 #define CONFIG_G_DNL_PRODUCT_NUM        0xa4a5
-#define CONFIG_G_DNL_MANUFACTURER       "Variscite"
+#define CONFIG_G_DNL_MANUFACTURER       "Charge"
 
 #ifndef CONFIG_CMD_NET
 #define CONFIG_CMD_NET		1

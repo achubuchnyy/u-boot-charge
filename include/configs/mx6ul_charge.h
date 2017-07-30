@@ -108,7 +108,7 @@
 
 
 #define MMC_BOOT_ENV_SETTINGS \
-	"fdt_file=imx6ul-charge-sd_emmc.dtb\0" \
+	"fdt_file=imx6ul-charge-sd_nand.dtb\0" \
 	"mmcdev="__stringify(CONFIG_SYS_MMC_ENV_DEV)"\0" \
 	"mmcpart=" __stringify(CONFIG_SYS_MMC_IMG_LOAD_PART) "\0" \
 	"mmcroot=" CONFIG_MMCROOT " rootwait rw\0" \
@@ -382,7 +382,7 @@
 #define CONFIG_MXC_OCOTP
 #define CONFIG_FEC_MXC
 #define CONFIG_MII
-#define CONFIG_FEC_ENET_DEV		0
+#define CONFIG_FEC_ENET_DEV		1
 
 #if (CONFIG_FEC_ENET_DEV == 0)
 #define IMX_FEC_BASE			ENET_BASE_ADDR
@@ -393,7 +393,7 @@
 #define CONFIG_FEC_MXC_PHYADDR		0x3
 #define CONFIG_FEC_XCV_TYPE		RMII
 #endif
-#define CONFIG_ETHPRIME			"FEC"
+#define CONFIG_ETHPRIME			"FEC1"
 
 #define CONFIG_PHYLIB
 #define CONFIG_PHY_MICREL

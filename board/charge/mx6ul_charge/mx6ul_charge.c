@@ -740,9 +740,9 @@ static struct mx6ul_iomux_ddr_regs mx6_ddr_ioregs = {
 
 static struct mx6_mmdc_calibration mx6_mmcd_calib = {
 	.p0_mpwldectrl0 = 0x00000000,
-	.p0_mpdgctrl0   = 0x41480144,
-	.p0_mprddlctl   = 0x40404652,
-	.p0_mpwrdlctl   = 0x4040443E,
+	.p0_mpdgctrl0   = 0x41480148,
+	.p0_mprddlctl   = 0x40404650,
+	.p0_mpwrdlctl   = 0x4040443A,
 };
 
 struct mx6_ddr_sysinfo ddr_sysinfo = {

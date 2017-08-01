@@ -371,7 +371,7 @@
 #define CONFIG_G_DNL_VENDOR_NUM         0x0525
 #define CONFIG_G_DNL_PRODUCT_NUM        0xa4a5
 #define CONFIG_G_DNL_MANUFACTURER       "Charge"
-/*
+
 #ifndef CONFIG_CMD_NET
 #define CONFIG_CMD_NET		1
 #endif
@@ -398,7 +398,7 @@
 #define CONFIG_PHYLIB
 #define CONFIG_PHY_MICREL
 #endif
-*/
+
 #define CONFIG_IMX_THERMAL
 
 #endif
